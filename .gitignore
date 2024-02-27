@@ -1,10 +1,21 @@
+
+# VS Code workspace
+*.code-workspace
+
+# PPT save file
+~$*.pptx
+
+
+
+
+
+
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
 
-# VS Code workspace
-*.code-workspace
 
 # C extensions
 *.so
