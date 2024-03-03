@@ -36,7 +36,7 @@ Repository short link: [timw.info/elements](https://timw.info/elements)
 ## Prompting guidance (third party)
 
 - [Prompt Engineering Guide](https://www.promptingguide.ai/)
--
+- HuggingFace
 
 
 
