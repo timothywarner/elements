@@ -9,15 +9,13 @@ Repository short link: [timw.info/elements](https://timw.info/elements)
 - [Website](https://techtrainertim.com)
 - [Bluesky](https://bsky.app/profile/techtrainertim.bsky.social)
 - [Mastodon](https://mastodon.social/@techtrainertim)
+- [Prompt Sharing Framework (PSF) at GitHub](https://github.com/timothywarner-org/psf)
 
-## Technical writing essentials
+## Tim's Essential Tech Writing Bookshelf
 
-- Strunk & Whte
-- defog your writing
-- Yahoo online style guide
-- Google dev style guide
-- Microsoft style guide
-- Chicago Manual of Style
+- [The Elements of Style](https://www.amazon.com/Elements-Style-Fourth-William-Strunk/dp/020530902X)
+- [Editor-Proof Your Writing](https://www.amazon.com/Editor-Proof-Your-Writing-Publishers-Writers/dp/1610351789)
+- [Yahoo Style Guide](https://www.amazon.com/Yahoo-Style-Guide-Ultimate-Sourcebook/dp/031256984X)
 
 ## Prompting guidance (OpenAI)
 
@@ -29,19 +27,17 @@ Repository short link: [timw.info/elements](https://timw.info/elements)
 
 ## Prompting guidance (Google)
 
-- blah
+- [Prompt design strategies](https://ai.google.dev/docs/prompt_best_practices)
 
+## Prompting guidance (Amazon)
 
-## Prompt-related GitHub projects
+- [What is Prompt Engineering?](https://aws.amazon.com/what-is/prompt-engineering/)
 
-- blah
+## Prompting guidance (third party)
 
-
-
+- [Prompt Engineering Guide](https://www.promptingguide.ai/)
 -
 
 
 
-
-
-
+-
