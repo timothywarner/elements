@@ -170,6 +170,45 @@ Data Fundamentals:
 - Describe the process of migrating data to Azure SQL Database and the benefits of using Azure for database management.
 - Summarize the features of Azure Data Lake and its use cases for big data analytics.
 
+Technical Interview Prep:
+- Describe a challenging technical problem you solved and the technologies you used.
+- Explain the differences between IaaS, PaaS, and SaaS with real-world examples of each.
+
+Behavioral Interview Questions:
+- Provide an example of a time you had to handle a high-pressure situation in a tech environment.
+- Discuss how you approach continuous learning and staying current with emerging IT trends.
+
+Questions to Ask Prospective Employers:
+- What is the company's approach to innovation and adopting new technologies?
+- Can you describe the team's workflow and how IT projects are prioritized and managed?
+
+Understanding Company Culture:
+- How does the company support professional development and career growth for its IT staff?
+- What role does the IT department play in the company's overall strategy and decision-making process?
+
+Scenario-Based Technical Questions:
+- How would you design a scalable and secure cloud architecture for a new web application?
+- Propose a strategy to migrate an organization's data center to the cloud, minimizing downtime.
+
+Practical Skills Assessment:
+- Outline the steps to troubleshoot a network connectivity issue affecting remote users.
+- Develop a script to automate the deployment of virtual machines in Azure or AWS.
+
+Evaluating Company Technology Stack:
+- What technologies are currently in place, and are there plans for upgrades or changes?
+- How does the company ensure data security and compliance with industry regulations?
+
+Work-Life Balance Inquiry:
+- What policies are in place regarding work-from-home or flexible working hours?
+- How does the company handle on-call duties and after-hours support for the IT team?
+
+Team Dynamics and Collaboration:
+- How is the IT team structured, and how do different roles and departments collaborate on projects?
+- What tools and platforms does the team use for project management and communication?
+
+Future Projects and Technologies:
+- Are there any upcoming projects or technology implementations that the IT team will be focusing on?
+- How
 
 
 
