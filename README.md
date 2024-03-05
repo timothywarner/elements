@@ -13,6 +13,7 @@ Repository short link: [timw.info/elements](https://timw.info/elements)
 
 ## Tim's Essential Tech Writing Bookshelf
 
+- [Internet Archive (search for the books here)](https://openlibrary.org/)
 - [The Elements of Style](https://www.amazon.com/Elements-Style-Fourth-William-Strunk/dp/020530902X)
 - [Editor-Proof Your Writing](https://www.amazon.com/Editor-Proof-Your-Writing-Publishers-Writers/dp/1610351789)
 - [Yahoo Style Guide](https://www.amazon.com/Yahoo-Style-Guide-Ultimate-Sourcebook/dp/031256984X)
