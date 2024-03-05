@@ -19,11 +19,11 @@ Repository short link: [timw.info/elements](https://timw.info/elements)
 
 ## Prompting guidance (OpenAI)
 
-- blah
+- [Prompt engineering](https://platform.openai.com/docs/guides/prompt-engineering)
 
 ## Prompting guidance (Microsoft)
 
-- blah
+- [Overview of prompts](https://learn.microsoft.com/en-us/ai-builder/prompts-overview)
 
 ## Prompting guidance (Google)
 
@@ -36,8 +36,8 @@ Repository short link: [timw.info/elements](https://timw.info/elements)
 ## Prompting guidance (third party)
 
 - [Prompt Engineering Guide](https://www.promptingguide.ai/)
-- HuggingFace
 
+## LLMs
 
-
--
+- [Hugging Face](https://huggingface.co/)
+- [Ollama](https://ollama.com/)
