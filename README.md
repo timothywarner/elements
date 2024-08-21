@@ -15,10 +15,14 @@ Repository short link: [timw.info/elements](https://timw.info/elements)
 
 - Any information you omit from your prompt will be inferred by the AI.
 - Never give personal or confidential information to a public / free AI. Be aware!
-- Have at least 2 "daily driver" LLMs at a paid tier for AB testing
+- Maintain at least 2 "daily driver" LLMs at a paid tier for AB testing
 - Speak to the LLM in the ways that are most comfortable (voice, text, image)
 - Think in terms of meta prompting (optimizing your custom instructions; asking AI for a summary prompt)
-- 
+- Apply a stream-of-consciousness technique to generate prompts
+- Be on the lookout for signs of amnesia/hallucination and have a backup plan
+- Don't forget to attribute AI enrichment
+- Understand the particularities of each LLM and leverage them in multi-chat sessions
+
 ## Tim's Essential Tech Writing Bookshelf
 
 - [Internet Archive (search for the books here)](https://openlibrary.org/)
