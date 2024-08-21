@@ -11,6 +11,14 @@ Repository short link: [timw.info/elements](https://timw.info/elements)
 - [Mastodon](https://mastodon.social/@techtrainertim)
 - [Prompt Sharing Framework (PSF) at GitHub](https://github.com/timothywarner-org/psf)
 
+## Tim's Rules of LLM Prompting
+
+- Any information you omit from your prompt will be inferred by the AI.
+- Never give personal or confidential information to a public / free AI. Be aware!
+- Have at least 2 "daily driver" LLMs at a paid tier for AB testing
+- Speak to the LLM in the ways that are most comfortable (voice, text, image)
+- Think in terms of meta prompting (optimizing your custom instructions; asking AI for a summary prompt)
+- 
 ## Tim's Essential Tech Writing Bookshelf
 
 - [Internet Archive (search for the books here)](https://openlibrary.org/)
@@ -42,3 +50,7 @@ Repository short link: [timw.info/elements](https://timw.info/elements)
 
 - [Hugging Face](https://huggingface.co/)
 - [Ollama](https://ollama.com/)
+
+## LLM vendors responsible AI principles
+
+- 
