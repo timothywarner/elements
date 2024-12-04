@@ -70,7 +70,7 @@ Repository short link: [timw.info/elements](https://timw.info/elements)
 - [Microsoft Responsible AI Standards](https://www.microsoft.com/en-us/ai/responsible-ai)
 - [OpenAI Safety & Responsibility](https://openai.com/safety)
 - [Google AI Principles](https://ai.google/responsibility/principles/)
-- [AWS Responsible AI](https://aws.amazon.com/machine-learning/responsible-ai/)
+- [AWS Responsible AI](https://awss.amazon.com/machine-learning/responsible-ai/)
 - [Anthropic AI Safety](https://www.anthropic.com/safety)
 
 ## Additional LLM Resources
