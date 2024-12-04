@@ -4,12 +4,11 @@ Repository short link: [timw.info/elements](https://timw.info/elements)
 
 ## Contact information
 
+- [GitHub](https://github.com/timothywarner)
 - [LinkedIn](https://www.linkedin.com/in/timothywarner/)
 - [Email](mailto:timothywarner316@gmail.com)
 - [Website](https://techtrainertim.com)
 - [Bluesky](https://bsky.app/profile/techtrainertim.bsky.social)
-- [Mastodon](https://mastodon.social/@techtrainertim)
-- [Prompt Sharing Framework (PSF) at GitHub](https://github.com/timothywarner-org/psf)
 
 ## Tim's Rules of LLM Prompting
 
@@ -50,11 +49,50 @@ Repository short link: [timw.info/elements](https://timw.info/elements)
 
 - [Prompt Engineering Guide](https://www.promptingguide.ai/)
 
-## LLMs
+## LLM galleries
 
 - [Hugging Face](https://huggingface.co/)
 - [Ollama](https://ollama.com/)
+- [Kagi](https://kagi.com/)
+- [You.com](https://you.com/)
+- GitHub Models
+- GitHub Copilot Extensions
+
+## Community and third-party resources
+
+- [Perplexity](https://www.perplexity.ai/)
+- [Cursor](https://www.cursor.com/)
+- [Noi](https://github.com/lencx/Noi)
+- [Backplain.ai](https://backplain.com)
 
 ## LLM vendors responsible AI principles
 
-- 
+- [Microsoft Responsible AI Standards](https://www.microsoft.com/en-us/ai/responsible-ai)
+- [OpenAI Safety & Responsibility](https://openai.com/safety)
+- [Google AI Principles](https://ai.google/responsibility/principles/)
+- [AWS Responsible AI](https://aws.amazon.com/machine-learning/responsible-ai/)
+- [Anthropic AI Safety](https://www.anthropic.com/safety)
+
+## Additional LLM Resources
+
+### Search Tools
+- [Kagi Universal Summarizer](https://kagi.com/summarizer)
+- [Perplexity Labs](https://labs.perplexity.ai/)
+- [Claude Search](https://claude.ai/search)
+
+### Development Tools
+- [GitHub Copilot Documentation](https://docs.github.com/en/copilot)
+- [Cursor Documentation](https://cursor.sh/docs)
+- [Amazon CodeWhisperer](https://aws.amazon.com/codewhisperer/)
+
+### Learning Resources
+- [Microsoft Learn AI Skills Challenge](https://learn.microsoft.com/en-us/training/challenges?id=ai-skills)
+- [Google AI Learning Path](https://cloud.google.com/learn/training/machinelearning-ai)
+- [AWS Machine Learning University](https://aws.amazon.com/machine-learning/mlu/)
+- [OpenAI Cookbook](https://cookbook.openai.com/)
+- [Anthropic Claude Documentation](https://docs.anthropic.com/)
+
+### AI Safety & Ethics
+- [AI Safety Resources (Anthropic)](https://www.anthropic.com/research)
+- [Microsoft AI Safety Report](https://blogs.microsoft.com/on-the-issues/2023/06/08/microsoft-ai-safety-framework-responsible-ai-development/)
+- [Google AI Safety First Approach](https://ai.google/responsibility/safety-first/)
