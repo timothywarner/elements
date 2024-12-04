@@ -1,0 +1,19 @@
+{
+  "ignorePatterns": [
+    "https://www.linkedin.com/in/timothywarner/",
+    "https://azureopenai.blog",
+    "https://www.anthropic.com/safety",
+    "https://claude.ai/search",
+    "https://cursor.sh/docs",
+    "https://blogs.microsoft.com/on-the-issues/2023/06/08/microsoft-ai-safety-framework-responsible-ai-development/",
+    "https://ai.google/responsibility/safety-first/"
+  ],
+  "httpHeaders": [
+    {
+      "urls": ["https://api.openai.com/*", "https://platform.openai.com/*"],
+      "headers": {
+        "User-Agent": "Mozilla/5.0"
+      }
+    }
+  ]
+} 

@@ -21,6 +21,7 @@ jobs:
         with:
           use-quiet-mode: 'yes'
           use-verbose-mode: 'no'
+          config-file: .github/link-checker-config.json
         continue-on-error: true
 
       - name: Save Link Checker Output
