@@ -1,0 +1,32 @@
+name: Link Checker
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+    branches:
+      - main
+
+jobs:
+  linkChecker:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Run Link Checker
+        id: link-check
+        uses: gaurav-nelson/github-action-markdown-link-check@v1
+        with:
+          use-quiet-mode: 'yes'
+          use-verbose-mode: 'no'
+
+      - name: Create Issue if Broken Links Found
+        if: failure()
+        uses: peter-evans/create-issue-from-file@v4
+        with:
+          title: 'Broken Links Detected'
+          content-filepath: './broken-links.txt'
+          labels: 'bug'
+          assignees: 'timothywarner'
