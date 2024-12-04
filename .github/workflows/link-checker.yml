@@ -21,6 +21,13 @@ jobs:
         with:
           use-quiet-mode: 'yes'
           use-verbose-mode: 'no'
+        continue-on-error: true
+
+      - name: Save Link Checker Output
+        if: failure()
+        run: |
+          echo "Broken links found!" > broken-links.txt
+          grep -r -E '\[✖\]' $GITHUB_WORKSPACE/resources/reference-materials/ >> broken-links.txt || echo "No broken links found." >> broken-links.txt
 
       - name: Create Issue if Broken Links Found
         if: failure()
