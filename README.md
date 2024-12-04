@@ -1,5 +1,13 @@
 # The Elements of Prompt Engineering Live Online Training Course
 
+![Link Checker](https://github.com/timothywarner/elements/actions/workflows/link-checker.yml/badge.svg)
+![GitHub last commit](https://img.shields.io/github/last-commit/timothywarner/elements)
+![GitHub issues](https://img.shields.io/github/issues/timothywarner/elements)
+![GitHub pull requests](https://img.shields.io/github/issues-pr/timothywarner/elements)
+![GitHub](https://img.shields.io/github/license/timothywarner/elements)
+
+![Cover Slide](images/cover-slide.png)
+
 Repository short link: [timw.info/elements](https://timw.info/elements)
 
 ## Contact information
@@ -29,24 +37,21 @@ Repository short link: [timw.info/elements](https://timw.info/elements)
 - [Editor-Proof Your Writing](https://www.amazon.com/Editor-Proof-Your-Writing-Publishers-Writers/dp/1610351789)
 - [Yahoo Style Guide](https://www.amazon.com/Yahoo-Style-Guide-Ultimate-Sourcebook/dp/031256984X)
 
-## Prompting guidance (OpenAI)
+## Prompting guidance
 
+### OpenAI
 - [Prompt engineering](https://platform.openai.com/docs/guides/prompt-engineering)
 
-## Prompting guidance (Microsoft)
-
+### Microsoft
 - [Overview of prompts](https://learn.microsoft.com/en-us/ai-builder/prompts-overview)
 
-## Prompting guidance (Google)
-
+### Google
 - [Prompt design strategies](https://ai.google.dev/docs/prompt_best_practices)
 
-## Prompting guidance (Amazon)
-
+### Amazon
 - [What is Prompt Engineering?](https://aws.amazon.com/what-is/prompt-engineering/)
 
-## Prompting guidance (third party)
-
+### Third Party
 - [Prompt Engineering Guide](https://www.promptingguide.ai/)
 
 ## LLM galleries
