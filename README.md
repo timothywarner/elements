@@ -18,6 +18,13 @@ Repository short link: [timw.info/elements](https://timw.info/elements)
 - [Website](https://techtrainertim.com)
 - [Bluesky](https://bsky.app/profile/techtrainertim.bsky.social)
 
+
+## Latest links from Tim
+
+- [Awesome Prompt Engineering](https://github.com/promptslab/Awesome-Prompt-Engineering)
+- [Prompting Guide Datasets](https://www.promptingguide.ai/datasets)
+- [Microsoft PromptBase](https://github.com/microsoft/promptbase)
+
 ## Tim's Rules of LLM Prompting
 
 - Any information you omit from your prompt will be inferred by the AI.
