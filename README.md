@@ -19,7 +19,11 @@ Repository short link: [timw.info/elements](https://timw.info/elements)
 5. Accept the fact you'll never be caught up. Instead, look around, ask questions, test
 6. Flex the LLM's multi-modal muscles
 7. Speaking of muscles: Cognitive muscle memory with gen AI
-8. 
+8. LLM Pillar Jumping 
+
+Link to Azure OpenAI 
+
+support for learning azure openai service at microsoft learning + how to sign up
 
 **Learning about LLM Privacy**
 
