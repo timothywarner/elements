@@ -19,7 +19,8 @@ Repository short link: [timw.info/elements](https://timw.info/elements)
 5. Accept the fact you'll never be caught up. Instead, look around, ask questions, test
 6. Flex the LLM's multi-modal muscles
 7. Speaking of muscles: Cognitive muscle memory with gen AI
-8. LLM Pillar Jumping 
+8. LLM Pillar Jumping
+9. "Think procedurally and in a step by step manner" it forces the AI to break up the problem domain
 
 Link to Azure OpenAI 
 
