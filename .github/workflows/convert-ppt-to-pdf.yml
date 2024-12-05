@@ -1,0 +1,29 @@
+name: Convert PPT to PDF
+
+on:
+  workflow_dispatch:
+
+jobs:
+  convert:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v2
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+
+    - name: Install unoconv
+      run: sudo apt-get install -y unoconv
+
+    - name: Convert PPTX to PDF
+      run: unoconv -f pdf course-plan/warner-elements.pptx
+
+    - name: Commit and push changes
+      uses: stefanzweifel/git-auto-commit-action@v4
+      with:
+        commit_message: Convert PPTX to PDF
+        file_pattern: course-plan/warner-elements.pdf
