@@ -8,7 +8,7 @@
 ![GitHub pull requests](https://img.shields.io/github/issues-pr/timothywarner/elements)
 ![GitHub](https://img.shields.io/github/license/timothywarner/elements)
 
-Repository short link: [timw.info/elements](https://timw.info/elements)
+Repository short link: [timw.info/elements](https://github.com/timothywarner/elements)
 
 ** Class session notes **
 
