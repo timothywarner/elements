@@ -12,40 +12,14 @@ Repository short link: [timw.info/elements](https://timw.info/elements)
 
 ** Class session notes **
 
-1. Know your LLM environment (data privacy: chat storage; usage stats; licenses)
-2. Using a "stream of consciousness" prompt with rough spelling, grammar, but with the who, what, when, where, why, and how
-3. Take advantage of system prompts and meta prompts (focusing or directing the LLM)
-4. A/B'ing LLMs against each other for fault tolerance and groundedness
-5. Accept the fact you'll never be caught up. Instead, look around, ask questions, test
-6. Flex the LLM's multi-modal muscles
-7. Speaking of muscles: Cognitive muscle memory with gen AI
-8. LLM Pillar Jumping
-9. "Think procedurally and in a step by step manner" it forces the AI to break up the problem domain
+
 
 Link to Azure OpenAI 
 
 support for learning azure openai service at microsoft learning + how to sign up
 
-**Learning about LLM Privacy**
 
-Here are some resources from major LLM providers to learn about privacy considerations:
 
-* **OpenAI:**
-    * Official Documentation: https://openai.com/
-    * Blog Posts and Research Papers: https://openai.com/blog/
-
-* **Google AI:**
-    * AI Principles: https://ai.google/principles/
-    * Privacy Policy: https://policies.google.com/privacy
-
-* **Hugging Face:**
-    * Community Forum: https://discuss.huggingface.co/
-    * Model Cards: Explore model cards for specific models to understand their privacy implications.
-
-**Additional Resources:**
-
-* **AI Now Institute:** https://ainowinstitute.org/ - Research institute focused on AI's social impact, including privacy.
-* **Electronic Frontier Foundation (EFF):** https://www.eff.org/ - Digital rights organization that advocates for privacy and security.
 
 ## Contact information
 
@@ -62,7 +36,7 @@ Here are some resources from major LLM providers to learn about privacy consider
 - [Prompting Guide Datasets](https://www.promptingguide.ai/datasets)
 - [Microsoft PromptBase](https://github.com/microsoft/promptbase)
 
-## Tim's Rules of LLM Prompting
+*## Tim's Rules of LLM Prompting
 
 - Any information you omit from your prompt will be inferred by the AI.
 - Never give personal or confidential information to a public / free AI. Be aware!
@@ -73,6 +47,15 @@ Here are some resources from major LLM providers to learn about privacy consider
 - Be on the lookout for signs of amnesia/hallucination and have a backup plan
 - Don't forget to attribute AI enrichment
 - Understand the particularities of each LLM and leverage them in multi-chat sessions
+- 1. Know your LLM environment (data privacy: chat storage; usage stats; licenses)
+2. Using a "stream of consciousness" prompt with rough spelling, grammar, but with the who, what, when, where, why, and how
+3. Take advantage of system prompts and meta prompts (focusing or directing the LLM)
+4. A/B'ing LLMs against each other for fault tolerance and groundedness
+5. Accept the fact you'll never be caught up. Instead, look around, ask questions, test
+6. Flex the LLM's multi-modal muscles
+7. Speaking of muscles: Cognitive muscle memory with gen AI
+8. LLM Pillar Jumping
+9. "Think procedurally and in a step by step manner" it forces the AI to break up the problem domain*
 
 ## Tim's Essential Tech Writing Bookshelf
 
@@ -112,7 +95,7 @@ Here are some resources from major LLM providers to learn about privacy consider
 - [Perplexity](https://www.perplexity.ai/)
 - [Cursor](https://www.cursor.com/)
 - [Noi](https://github.com/lencx/Noi)
-- [Backplain.ai](https://backplain.com)
+- [Backplain](https://backplain.com)
 
 ## LLM vendors responsible AI principles
 
