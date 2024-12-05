@@ -10,6 +10,15 @@
 
 Repository short link: [timw.info/elements](https://timw.info/elements)
 
+** Class session notes **
+
+1. Know your LLM environment (data privacy: chat storage; usage stats; licenses)
+2. Using a "stream of consciousness" prompt with rough spelling, grammar, but with the who, what, when, where, why, and how
+3. Take advantage of system prompts and meta prompts (focusing or directing the LLM)
+4. A/B'ing LLMs against each other for fault tolerance and groundedness
+5. Accept the fact you'll never be caught up. Instead, look around, ask questions, test
+6. 
+
 **Learning about LLM Privacy**
 
 Here are some resources from major LLM providers to learn about privacy considerations:
