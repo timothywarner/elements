@@ -10,6 +10,27 @@
 
 Repository short link: [timw.info/elements](https://timw.info/elements)
 
+**Learning about LLM Privacy**
+
+Here are some resources from major LLM providers to learn about privacy considerations:
+
+* **OpenAI:**
+    * Official Documentation: https://openai.com/
+    * Blog Posts and Research Papers: https://openai.com/blog/
+
+* **Google AI:**
+    * AI Principles: https://ai.google/principles/
+    * Privacy Policy: https://policies.google.com/privacy
+
+* **Hugging Face:**
+    * Community Forum: https://discuss.huggingface.co/
+    * Model Cards: Explore model cards for specific models to understand their privacy implications.
+
+**Additional Resources:**
+
+* **AI Now Institute:** https://ainowinstitute.org/ - Research institute focused on AI's social impact, including privacy.
+* **Electronic Frontier Foundation (EFF):** https://www.eff.org/ - Digital rights organization that advocates for privacy and security.
+
 ## Contact information
 
 - [GitHub](https://github.com/timothywarner)
