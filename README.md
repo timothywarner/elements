@@ -10,6 +10,38 @@
 
 Repository short link: [timw.info/elements](https://timw.info/elements)
 
+** Class session notes **
+
+1. Know your LLM environment (data privacy: chat storage; usage stats; licenses)
+2. Using a "stream of consciousness" prompt with rough spelling, grammar, but with the who, what, when, where, why, and how
+3. Take advantage of system prompts and meta prompts (focusing or directing the LLM)
+4. A/B'ing LLMs against each other for fault tolerance and groundedness
+5. Accept the fact you'll never be caught up. Instead, look around, ask questions, test
+6. Flex the LLM's multi-modal muscles
+7. Speaking of muscles: Cognitive muscle memory with gen AI
+8. 
+
+**Learning about LLM Privacy**
+
+Here are some resources from major LLM providers to learn about privacy considerations:
+
+* **OpenAI:**
+    * Official Documentation: https://openai.com/
+    * Blog Posts and Research Papers: https://openai.com/blog/
+
+* **Google AI:**
+    * AI Principles: https://ai.google/principles/
+    * Privacy Policy: https://policies.google.com/privacy
+
+* **Hugging Face:**
+    * Community Forum: https://discuss.huggingface.co/
+    * Model Cards: Explore model cards for specific models to understand their privacy implications.
+
+**Additional Resources:**
+
+* **AI Now Institute:** https://ainowinstitute.org/ - Research institute focused on AI's social impact, including privacy.
+* **Electronic Frontier Foundation (EFF):** https://www.eff.org/ - Digital rights organization that advocates for privacy and security.
+
 ## Contact information
 
 - [GitHub](https://github.com/timothywarner)
