@@ -17,7 +17,9 @@ Repository short link: [timw.info/elements](https://timw.info/elements)
 3. Take advantage of system prompts and meta prompts (focusing or directing the LLM)
 4. A/B'ing LLMs against each other for fault tolerance and groundedness
 5. Accept the fact you'll never be caught up. Instead, look around, ask questions, test
-6. 
+6. Flex the LLM's multi-modal muscles
+7. Speaking of muscles: Cognitive muscle memory with gen AI
+8. 
 
 **Learning about LLM Privacy**
 
