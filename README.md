@@ -1,6 +1,8 @@
 # The Elements of Prompt Engineering Live Online Training Course
 
-![Thumbnail](images/cover.png)
+<p align="center">
+  <img src="images/pe-cover.png" alt="Thumbnail" width="600" style="max-width: 100%;">
+</p>
 
 ![Link Checker](https://github.com/timothywarner/elements/actions/workflows/link-checker.yml/badge.svg)
 ![GitHub last commit](https://img.shields.io/github/last-commit/timothywarner/elements)
