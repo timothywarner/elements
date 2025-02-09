@@ -4,25 +4,57 @@
   <img src="images/pe-cover.png" alt="Thumbnail" width="600" style="max-width: 100%;">
 </p>
 
-![Link Checker](https://github.com/timothywarner/elements/actions/workflows/link-checker.yml/badge.svg)
-![GitHub last commit](https://img.shields.io/github/last-commit/timothywarner/elements)
-![GitHub](https://img.shields.io/github/license/timothywarner/elements)
+<p align="center">
+  <a href="https://github.com/timothywarner/elements/actions/workflows/link-checker.yml">
+    <img src="https://github.com/timothywarner/elements/actions/workflows/link-checker.yml/badge.svg" alt="Link Checker" style="margin: 0 10px;">
+  </a>
+  <a href="https://github.com/timothywarner/elements/commits">
+    <img src="https://img.shields.io/github/last-commit/timothywarner/elements?cache_seconds=300" alt="GitHub last commit" style="margin: 0 10px;">
+  </a>
+  <a href="https://github.com/timothywarner/elements/blob/main/LICENSE">
+    <img src="https://img.shields.io/github/license/timothywarner/elements" alt="GitHub license" style="margin: 0 10px;">
+  </a>
+</p>
 
-Repository short link: [timw.info/elements](https://timw.info/elements)
+<p align="center" style="margin: 20px 0;">
+  Repository short link: <a href="https://timw.info/elements">timw.info/elements</a>
+</p>
 
-## Contact information
+## 📬 Connect with Tim
 
-- [GitHub](https://github.com/timothywarner)
-- [LinkedIn](https://www.linkedin.com/in/timothywarner/)
-- [Email](mailto:timothywarner316@gmail.com)
-- [Website](https://techtrainertim.com)
-- [Bluesky](https://bsky.app/profile/techtrainertim.bsky.social)
+> 🌐 **Primary Contact:** Visit [techtrainertim.com](https://techtrainertim.com) for all my social links and latest content!
+
+<details>
+<summary>Additional Contact Methods</summary>
+
+- 👨‍💻 [GitHub](https://github.com/timothywarner)
+- 💼 [LinkedIn](https://www.linkedin.com/in/timothywarner/)
+- 📧 [Email](mailto:timothywarner316@gmail.com)
+- 🦋 [Bluesky](https://bsky.app/profile/techtrainertim.bsky.social)
+</details>
 
 ## Latest links from Tim
 
-- [Awesome Prompt Engineering](https://github.com/promptslab/Awesome-Prompt-Engineering)
-- [Prompting Guide Datasets](https://www.promptingguide.ai/datasets)
-- [Microsoft PromptBase](https://github.com/microsoft/promptbase)
+### 🎯 Essential Resources
+- [Awesome Prompt Engineering](https://github.com/promptslab/Awesome-Prompt-Engineering) - Comprehensive collection of PE resources
+- [Prompting Guide Datasets](https://www.promptingguide.ai/datasets) - Curated datasets for prompt engineering
+- [Microsoft PromptBase](https://github.com/microsoft/promptbase) - Microsoft's official prompt engineering patterns
+
+### 🔧 Vendor-Specific Guides
+- [OpenAI Prompt Engineering Guide](https://platform.openai.com/docs/guides/prompt-engineering) - Official OpenAI best practices
+- [Microsoft AI Builder Prompts](https://learn.microsoft.com/en-us/ai-builder/prompts-overview) - Microsoft's prompt design patterns
+- [Google AI Prompt Best Practices](https://ai.google.dev/docs/prompt_best_practices) - Google's guidelines for effective prompting
+- [AWS Prompt Engineering Guide](https://aws.amazon.com/what-is/prompt-engineering/) - Amazon's approach to prompt engineering
+
+### 🛠️ Recommended Tools
+- [Perplexity](https://www.perplexity.ai/) - AI-powered search and discovery
+- [Cursor](https://www.cursor.com/) - AI-enhanced development environment
+- [Kagi Universal Summarizer](https://kagi.com/summarizer) - Advanced text summarization tool
+
+### 📚 Learning Resources
+- [OpenAI Cookbook](https://cookbook.openai.com/) - Practical prompt engineering recipes
+- [Anthropic Claude Documentation](https://docs.anthropic.com/) - Advanced prompting techniques
+- [Prompt Engineering Guide](https://www.promptingguide.ai/) - Comprehensive learning resource
 
 ## Tim's LLM Prompting Guidance
 
@@ -40,6 +72,8 @@ Repository short link: [timw.info/elements](https://timw.info/elements)
 - Understand the unique strengths and behaviors of each LLM and leverage them strategically in multi-chat sessions
 - "LLM Pillar Jumping": Use insights from one LLM session to support or refine another
 - Consider "A/B testing" LLMs against each other for more grounded and reliable answers
+- Get vulnerable with your AI (in trusted, secure sessions) to receive maximally personalized results—the more context you provide about your unique situation, the more tailored and valuable the response
+- Leverage "meta-prompting" by asking the AI to craft system messages, design prompts, and optimize instructions—let the AI help you become better at using AI
 
 ## Tim's Essential Tech Writing Bookshelf
 
