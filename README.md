@@ -1,4 +1,4 @@
-# The Elements of Prompt Engineering Live Online Training Course
+# The Elements of Prompt Engineering Live Online Training Course v2
 
 <p align="center">
   <img src="images/pe-cover.png" alt="Thumbnail" width="600" style="max-width: 100%;">
