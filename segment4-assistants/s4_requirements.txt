@@ -1,0 +1,27 @@
+# Legacy dependencies - last updated Dec 2020
+SQLite3==3.31.1  # Older version with known security issues
+Flask==1.1.2  # Older version of Flask
+Werkzeug==1.0.1  # Required by Flask
+Jinja2==2.11.2  # Template engine with security patches needed
+MarkupSafe==1.1.1  # Required by Jinja2
+click==7.1.2  # Command line interface
+itsdangerous==1.1.0  # Security-related helpers
+python-dateutil==2.8.1  # Date utilities
+six==1.15.0  # Python 2/3 compatibility
+pytz==2020.4  # Timezone support
+requests==2.25.0  # HTTP library
+certifi==2020.11.8  # Required by requests
+chardet==3.0.4  # Required by requests
+idna==2.10  # Required by requests
+urllib3==1.26.2  # Required by requests (has known vulnerabilities)
+bcrypt==3.2.0  # Password hashing (older version)
+cffi==1.14.4  # Required by bcrypt
+pycparser==2.20  # Required by cffi
+cryptography==3.2.1  # Crypto functions (needs security updates)
+PyJWT==1.7.1  # JWT implementation (pre-2.0 version)
+email-validator==1.1.2  # Email validation
+dnspython==2.0.0  # Required by email-validator
+pandas==1.1.5  # Data analysis (older version)
+numpy==1.19.4  # Required by pandas
+python-dotenv==0.15.0  # Environment variables
+gunicorn==20.0.4  # WSGI HTTP Server 

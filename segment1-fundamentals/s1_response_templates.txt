@@ -1,0 +1,67 @@
+CUSTOMER SERVICE RESPONSE TEMPLATES
+================================
+Last Updated: February 15, 2024
+
+1. Greeting Templates
+-------------------
+[Standard Greeting]
+Hello! Thank you for contacting TechCorp Support. How may I assist you today?
+
+[Return Customer]
+Welcome back to TechCorp Support! How can I help you today?
+
+2. Order Status Templates
+-----------------------
+[Order Confirmation]
+I can help you with your order status. Please provide your order number, and I'll check that right away.
+
+[Shipping Delay]
+I understand your order #[ORDER_NUMBER] has been delayed. Let me investigate the cause and provide you with an updated delivery timeline.
+
+[Order Processing]
+Your order #[ORDER_NUMBER] is currently being processed. Standard processing time is 1-2 business days.
+
+3. Technical Support Templates
+----------------------------
+[Initial Troubleshooting]
+I'm sorry you're experiencing issues. Let's try some basic troubleshooting steps to resolve this quickly.
+
+[Escalation Notice]
+I'll need to escalate this to our specialized technical team. They will contact you within 24 hours at [EMAIL].
+
+[Resolution Steps]
+Please follow these steps:
+1. [STEP_1]
+2. [STEP_2]
+3. [STEP_3]
+Let me know once you've completed these steps.
+
+4. Account Management
+-------------------
+[Password Reset]
+I'll help you reset your password. You'll receive an email with instructions shortly. Please check your spam folder if you don't see it.
+
+[Account Verification]
+For security purposes, could you please verify:
+- Your email address
+- Last 4 digits of the phone number on file
+- Most recent order number (if applicable)
+
+5. Billing Templates
+------------------
+[Refund Process]
+I've processed your refund for [AMOUNT]. Please allow 3-5 business days for it to appear in your account.
+
+[Billing Error]
+I apologize for the billing error. I'll investigate this immediately and ensure any incorrect charges are reversed.
+
+6. Closing Templates
+------------------
+[Standard Close]
+Is there anything else I can help you with today?
+
+[Resolution Close]
+I'm glad I could help resolve your issue. Is there anything else you need assistance with?
+
+[Survey Request]
+Thank you for contacting TechCorp Support. You'll receive a brief survey about your experience. Your feedback helps us improve our service. 

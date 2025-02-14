@@ -1,0 +1,54 @@
+CUSTOMER SERVICE TRANSCRIPTS
+============================
+Last Updated: March 1, 2024
+
+Transcript #1 - Order Delay
+--------------------------
+Customer: Hi, I ordered a laptop 5 days ago (Order #45789) and haven't received any shipping updates.
+Agent: Hello! I understand you're concerned about your order. Let me check that for you.
+Customer: Thanks, I really need it for work.
+Agent: I see your order was delayed due to a verification hold. I've cleared that now. It will ship within 24 hours.
+Customer: That's a relief. Why wasn't I notified about the hold?
+Agent: I apologize for the lack of communication. You should have been notified. I'll make sure to add expedited shipping at no cost.
+Customer: Thank you, that helps a lot.
+
+Transcript #2 - Product Return
+----------------------------
+Customer: The headphones I received are defective. Right speaker has no sound.
+Agent: I'm sorry to hear that. Could you provide your order number?
+Customer: Yes, it's #52341
+Agent: Thank you. Have you tried resetting the headphones?
+Customer: Yes, followed all troubleshooting steps from the manual.
+Agent: I'll generate a return label right away. Would you prefer a refund or replacement?
+Customer: Replacement please.
+Agent: Done. You'll receive the label by email. Send the defective unit back within 14 days.
+
+Transcript #3 - Account Access
+----------------------------
+Customer: I can't log into my account. Keeps saying password incorrect.
+Agent: I'll help you with that. Can you verify your email address?
+Customer: user@email.com
+Agent: Thanks. I notice multiple failed login attempts. I'll reset your password.
+Customer: Will I get the reset link by email?
+Agent: Yes, check your inbox in 2-3 minutes. For security, please change it again after logging in.
+Customer: Got it, thanks.
+
+Transcript #4 - Billing Dispute
+-----------------------------
+Customer: I was charged twice for my subscription!
+Agent: I apologize for this error. Let me look up your account.
+Customer: My account email is jane@email.com
+Agent: I see the duplicate charge from March 1st. I'll process a refund immediately.
+Customer: How long will it take?
+Agent: The refund will appear in 3-5 business days. I'm also adding a $10 credit to your account.
+Customer: Thank you for resolving this quickly.
+
+Transcript #5 - Product Information
+--------------------------------
+Customer: Does your software work on Mac?
+Agent: Yes, our software is compatible with macOS 10.15 and newer versions.
+Customer: What about M1 chips?
+Agent: Yes, we're fully optimized for Apple Silicon. Would you like me to send you the system requirements?
+Customer: Please do.
+Agent: I've sent them to your email. Let me know if you need any clarification.
+Customer: Perfect, thanks! 

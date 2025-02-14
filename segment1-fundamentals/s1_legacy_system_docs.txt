@@ -1,0 +1,83 @@
+Legacy System Documentation v1.2
+Last Updated: January 15, 2020
+
+1. System Overview
+==================
+The CustomerCare v3.5 system is a monolithic application built using:
+- Java 8
+- Oracle Database 11g
+- Apache Tomcat 7.0
+- Spring Framework 4.3
+
+2. Core Components
+==================
+2.1 Authentication Module
+-------------------------
+- Custom LDAP integration
+- Session timeout: 30 minutes
+- Password requirements: 8 chars min, 1 uppercase, 1 number
+- Failed login attempts limited to 3
+
+2.2 Customer Database Schema
+---------------------------
+Tables:
+- CUSTOMERS (customer_id, name, email, phone, created_date)
+- ORDERS (order_id, customer_id, order_date, total_amount)
+- SUPPORT_TICKETS (ticket_id, customer_id, issue_type, status)
+- INVENTORY (item_id, description, quantity, last_updated)
+
+2.3 Reporting System
+-------------------
+- Crystal Reports 2011
+- Daily batch processing at 2 AM EST
+- Reports stored in network share \\SERVER01\Reports
+- Retention period: 90 days
+
+3. Integration Points
+====================
+3.1 Payment Processing
+----------------------
+- PaymentProcessor v2.1 API
+- SOAP-based web services
+- 30-second timeout
+- Retry logic: 3 attempts
+
+3.2 Email System
+---------------
+- SendMail v1.5
+- SMTP configuration
+- Templates stored in /var/templates/
+- Rate limit: 1000 emails/hour
+
+4. Backup Procedures
+===================
+- Full backup: Sunday 1 AM EST
+- Incremental backups: Daily at 11 PM EST
+- Backup location: Tape drive in Server Room B
+- Retention: 6 months
+
+5. Known Issues
+==============
+5.1 Performance
+---------------
+- System slows down with >500 concurrent users
+- Report generation takes >5 minutes for large datasets
+- Session management memory leaks
+
+5.2 Security
+------------
+- TLS 1.0 dependency
+- Outdated password hashing (MD5)
+- Clear text logging of sensitive data
+
+6. Maintenance Windows
+=====================
+- Every Sunday 2 AM - 6 AM EST
+- Emergency patches: 48-hour notice required
+- Quarterly updates scheduled with management
+
+7. Support Contacts
+==================
+- System Admin: John Smith (ext. 5501)
+- Database Admin: Maria Garcia (ext. 5502)
+- Network Team: support@company.internal 

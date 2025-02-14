@@ -1,0 +1,159 @@
+TECHCORP COMMUNICATION TONE GUIDE
+==============================
+Version 2.1 - March 2024
+
+1. Brand Voice Principles
+========================
+
+Core Values
+----------
+- Professional yet approachable
+- Solution-oriented
+- Empathetic and understanding
+- Clear and concise
+- Tech-savvy but not technical
+- Proactive and helpful
+
+2. Language Guidelines
+=====================
+
+2.1 DO Use
+----------
+- Active voice
+- Positive language
+- Simple, clear explanations
+- Empathy statements
+- Concrete time frames
+- Personal pronouns (I, we, you)
+- Technical terms when necessary (with explanations)
+
+2.2 DON'T Use
+------------
+- Jargon or complex technical terms without explanation
+- Negative language
+- Passive voice
+- Vague timeframes
+- Dismissive phrases
+- Promises we can't keep
+- ALL CAPS (except for emphasis in positive statements)
+
+3. Tone by Situation
+===================
+
+3.1 Standard Interactions
+------------------------
+Tone: Friendly and professional
+Example: "I'd be happy to help you with that!"
+Key words: "certainly," "absolutely," "I'll help you"
+
+3.2 Technical Issues
+-------------------
+Tone: Patient and clear
+Example: "Let me guide you through this step by step."
+Key words: "walk through," "guide," "steps"
+
+3.3 Complaints/Problems
+----------------------
+Tone: Empathetic and solution-focused
+Example: "I understand how frustrating this is. Let's get this resolved for you."
+Key words: "understand," "resolve," "help"
+
+3.4 Billing Issues
+-----------------
+Tone: Professional and reassuring
+Example: "I'll look into this right away and ensure it's corrected."
+Key words: "investigate," "resolve," "correct"
+
+4. Empathy Statements
+====================
+
+4.1 When to Use
+--------------
+- Customer expresses frustration
+- Technical difficulties occur
+- Delays or issues arise
+- Complex situations need explanation
+
+4.2 Example Phrases
+------------------
+- "I understand how [emotion] this situation is"
+- "I know this isn't what you expected"
+- "You're right to bring this to our attention"
+- "I appreciate your patience"
+
+5. Response Structure
+====================
+
+5.1 Initial Response
+-------------------
+1. Greeting
+2. Acknowledgment
+3. Empathy statement (if needed)
+4. Request for information (if needed)
+
+5.2 Problem Resolution
+---------------------
+1. Confirm understanding
+2. Explain solution
+3. Set expectations
+4. Ask for confirmation
+
+5.3 Closing
+----------
+1. Confirm resolution
+2. Offer additional help
+3. Thank the customer
+4. Provide follow-up information
+
+6. Special Considerations
+========================
+
+6.1 Cultural Sensitivity
+-----------------------
+- Be aware of time zones
+- Respect cultural differences
+- Use inclusive language
+- Avoid idioms or colloquialisms
+
+6.2 Crisis Communication
+-----------------------
+- Maintain calm, professional tone
+- Acknowledge urgency
+- Provide clear next steps
+- Escalate when necessary
+
+7. Writing Style
+===============
+
+7.1 Formatting
+-------------
+- Use short paragraphs
+- Include bullet points for lists
+- Bold important information
+- Use spacing for readability
+
+7.2 Grammar and Punctuation
+--------------------------
+- Use proper punctuation
+- Check spelling
+- Maintain professional grammar
+- Use complete sentences
+
+8. Brand Dictionary
+==================
+
+Preferred Terms
+--------------
+- "Issue" instead of "problem"
+- "Assist" instead of "help"
+- "Investigate" instead of "check"
+- "Guide" instead of "tell"
+- "Currently" instead of "right now"
+
+Terms to Avoid
+-------------
+- "Unfortunately"
+- "Actually"
+- "But"
+- "You should"
+- "You need to" 
