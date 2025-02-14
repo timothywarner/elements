@@ -1,0 +1,53 @@
+# .copilotignore
+
+# Ignore compiled code and binaries
+*.dll
+*.exe
+*.o
+*.obj
+*.so
+*.class
+*.pyc  # Example for Python compiled bytecode
+
+# Ignore log files
+*.log
+
+# Ignore temporary files
+*.tmp
+*.swp
+*~
+
+# Ignore build artifacts
+build/
+dist/
+out/
+
+# Ignore dependency directories (often large and irrelevant)
+node_modules/
+vendor/
+.venv/  # Example for Python virtual environment
+
+# Ignore configuration files that might contain sensitive info
+.env
+config.ini
+secrets.json
+
+# Ignore test data
+testdata/
+
+# Ignore large data files (can slow down Copilot)
+*.csv  # Example
+*.tsv  # Example
+*.dat  # Example
+
+# Ignore specific files that Copilot should not consider
+README.md  # Example - sometimes helpful to ignore for code suggestions
+LICENSE  # Example - often large and not relevant for code completion
+.git/      # Important: Ignore the Git repository itself!
+.vscode/   # VS Code settings (can contain personal paths)
+
+# Custom project-specific ignores
+.DS_Store # macOS specific
+Thumbs.db # Windows specific
+.idea/     # IntelliJ IDEA specific
+.cache/    # Cache directories

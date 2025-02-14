@@ -1,0 +1,52 @@
+{
+  "products": [
+    {
+      "id": "P001",
+      "name": "Smart Home Hub",
+      "description": "Control your entire home with voice commands and automated schedules",
+      "category": "Smart Home",
+      "price": 129.99,
+      "features": ["Voice Control", "WiFi Compatible", "Mobile App"],
+      "ratings": {
+        "average": 4.5,
+        "count": 2547,
+        "reviews": [
+          {
+            "user": "TechEnthusiast",
+            "rating": 5,
+            "comment": "Amazing device! Completely transformed how I interact with my home."
+          },
+          {
+            "user": "SmartHomeNewbie",
+            "rating": 4,
+            "comment": "Good product but setup was a bit complicated. Documentation could be better."
+          }
+        ]
+      }
+    },
+    {
+      "id": "P002",
+      "name": "AI Writing Assistant",
+      "description": "Advanced language model to help with writing and editing",
+      "category": "Software",
+      "price": 49.99,
+      "features": ["Grammar Check", "Style Suggestions", "Tone Analysis"],
+      "ratings": {
+        "average": 4.8,
+        "count": 1823,
+        "reviews": [
+          {
+            "user": "ContentCreator",
+            "rating": 5,
+            "comment": "This AI tool has dramatically improved my writing productivity!"
+          },
+          {
+            "user": "StudentWriter",
+            "rating": 4,
+            "comment": "Great for essays but sometimes misses context in technical writing."
+          }
+        ]
+      }
+    }
+  ]
+} 

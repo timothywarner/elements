@@ -1,0 +1,165 @@
+# Collection of Annotated Prompts for AI Development
+# Each prompt includes explanation and use case
+
+[CONTENT GENERATION - TECHNICAL]
+PROMPT:
+Write a technical blog post about containerization in cloud computing, covering:
+1. Basic concepts and terminology
+2. Popular tools and platforms
+3. Best practices for deployment
+4. Security considerations
+Length: 1500 words
+Target audience: Junior DevOps engineers
+Include: Code examples, diagrams references
+Format: Markdown with H2 and H3 headings
+
+EXPLANATION:
+- Specifies exact length
+- Defines target audience
+- Lists required sections
+- Indicates format
+- Requests specific elements
+
+[DATA ANALYSIS - BUSINESS]
+PROMPT:
+Analyze the attached Q4 2023 sales data to:
+1. Identify top 5 performing products by revenue
+2. Calculate month-over-month growth rates
+3. Highlight any seasonal patterns
+4. Recommend inventory optimization strategies
+
+Output format: Executive summary followed by detailed analysis
+Include: Supporting charts and tables
+Focus on: Action items for Q1 2024
+Constraints: Consider only US market data
+
+EXPLANATION:
+- Clear analysis objectives
+- Specific output format
+- Defined scope and constraints
+- Action-oriented requirements
+
+[CODE REVIEW - PYTHON]
+PROMPT:
+Review this Python function that implements a caching mechanism:
+1. Identify potential performance bottlenecks
+2. Suggest optimizations for memory usage
+3. Check for thread safety issues
+4. Recommend error handling improvements
+
+Context: High-traffic web application
+Language version: Python 3.9+
+Performance target: < 50ms response time
+Include: Code examples for suggested improvements
+
+EXPLANATION:
+- Provides technical context
+- Sets performance targets
+- Specifies language version
+- Requests concrete examples
+
+[EDUCATIONAL CONTENT]
+PROMPT:
+Create an interactive tutorial on machine learning basics:
+1. Explain core concepts using analogies
+2. Provide step-by-step examples
+3. Include practice exercises
+4. Add knowledge check questions
+
+Target audience: High school students
+Difficulty: Beginner
+Time requirement: 30-minute lesson
+Format: Interactive notebook with code cells
+
+EXPLANATION:
+- Defines learning objectives
+- Specifies time constraint
+- Indicates interactivity
+- Targets specific audience
+
+[SYSTEM DESIGN]
+PROMPT:
+Design a scalable microservices architecture for an e-commerce platform:
+1. List core services and their responsibilities
+2. Define communication patterns
+3. Specify data storage solutions
+4. Address security requirements
+
+Requirements:
+- Handle 10,000 concurrent users
+- 99.99% uptime
+- < 200ms response time
+- Compliance with GDPR
+
+Output:
+- System diagram
+- Component specifications
+- API contracts
+- Deployment strategy
+
+EXPLANATION:
+- Clear performance requirements
+- Specific metrics
+- Comprehensive deliverables
+- Technical constraints
+
+[CREATIVE WRITING]
+PROMPT:
+Write a science fiction story about AI consciousness with these elements:
+1. Setting: Year 2150
+2. Main character: AI research scientist
+3. Conflict: Ethical dilemma about AI rights
+4. Theme: Balance of progress and responsibility
+
+Length: 2500 words
+Style: Hard science fiction
+Include: Technical details about AI systems
+Avoid: Common AI tropes and clichés
+
+EXPLANATION:
+- Detailed story elements
+- Specific genre requirements
+- Clear length requirement
+- Content guidelines
+
+[MARKET ANALYSIS]
+PROMPT:
+Analyze the current state of AI chip manufacturing:
+1. Market leaders and their technologies
+2. Production capabilities and limitations
+3. Supply chain dependencies
+4. Future technology roadmaps
+
+Focus period: 2022-2024
+Geographic scope: Global market
+Key metrics:
+- Manufacturing capacity
+- Technology node progression
+- Investment patterns
+- Market share distribution
+
+EXPLANATION:
+- Defined time period
+- Specific industry focus
+- Key metrics listed
+- Clear scope
+
+# PROMPT TEMPLATE STRUCTURE
+[Purpose/Category]
+PROMPT:
+{Main instruction with specific requirements}
+
+Context:
+- {Background information}
+- {Relevant constraints}
+- {Technical requirements}
+
+Output requirements:
+- {Format specifications}
+- {Quality criteria}
+- {Deliverables}
+
+EXPLANATION:
+- {Why each element matters}
+- {How it improves output}
+- {Key considerations} 

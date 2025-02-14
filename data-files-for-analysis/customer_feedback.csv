@@ -1,0 +1,11 @@
+Timestamp,CustomerID,Product,Category,Rating,Feedback,SupportTicketID
+2024-03-15 09:23:45,C1001,ChatGPT Plus,AI Services,5,"Absolutely love how this tool helps me learn and work more efficiently. The responses are always helpful and well-structured.",ST-2024-001
+2024-03-15 10:15:32,C1002,Midjourney,AI Services,4,"Great for creative projects, but sometimes the output is unpredictable. Would love more control over the style.",ST-2024-002
+2024-03-15 11:45:18,C1003,Claude,AI Services,5,"The responses are incredibly nuanced and helpful. Amazing for coding and technical writing tasks.",ST-2024-003
+2024-03-14 15:30:22,C1004,DALL-E,AI Services,3,"Good for simple images, but struggles with complex scenes. Interface could be more user-friendly.",ST-2024-004
+2024-03-14 16:20:45,C1005,GPT-4,AI Services,5,"Mind-blowing capabilities for complex tasks. Worth every penny for professional work.",ST-2024-005
+2024-03-14 17:10:33,C1006,Stable Diffusion,AI Services,4,"Love the local hosting option, but requires technical knowledge to set up properly.",ST-2024-006
+2024-03-13 09:05:12,C1007,Anthropic Claude 2,AI Services,5,"Exceptional at understanding context and providing detailed, accurate responses. Great for research.",ST-2024-007
+2024-03-13 10:30:55,C1008,GitHub Copilot,AI Services,4,"Fantastic for coding, but occasionally suggests deprecated methods. Still a huge time-saver.",ST-2024-008
+2024-03-13 11:45:23,C1009,Jasper AI,AI Services,3,"Good for marketing copy, but needs more fact-checking capabilities. Sometimes produces repetitive content.",ST-2024-009
+2024-03-12 14:20:17,C1010,Bard,AI Services,4,"Improving rapidly, especially good at real-time information. Sometimes provides inconsistent answers.",ST-2024-010 

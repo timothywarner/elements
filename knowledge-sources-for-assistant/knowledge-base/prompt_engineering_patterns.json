@@ -1,0 +1,140 @@
+{
+  "patterns": [
+    {
+      "name": "Chain-of-Thought",
+      "description": "Guide the AI through a step-by-step reasoning process",
+      "template": "Let's solve this {problem} step by step:\n1. First, let's understand...\n2. Then, we'll analyze...\n3. Finally, we'll conclude...",
+      "use_cases": [
+        "Complex problem solving",
+        "Mathematical reasoning",
+        "Logic puzzles",
+        "Decision making"
+      ],
+      "examples": [
+        {
+          "scenario": "Math problem solving",
+          "prompt": "Let's solve this algebra problem step by step:\n1. First, let's identify the variables\n2. Then, set up the equation\n3. Finally, solve for x",
+          "explanation": "Breaks down complex problems into manageable steps"
+        }
+      ]
+    },
+    {
+      "name": "Role-Based",
+      "description": "Assign a specific role or expertise to the AI",
+      "template": "As a {role}, {task}",
+      "use_cases": [
+        "Professional writing",
+        "Technical explanations",
+        "Specialized advice",
+        "Domain-specific tasks"
+      ],
+      "examples": [
+        {
+          "scenario": "Technical writing",
+          "prompt": "As a senior software engineer, explain the concept of dependency injection to a junior developer",
+          "explanation": "Provides context and expertise level for the response"
+        }
+      ]
+    },
+    {
+      "name": "Format-Driven",
+      "description": "Specify exact output format requirements",
+      "template": "Generate a {format} that includes:\n- {requirement1}\n- {requirement2}\n- {requirement3}",
+      "use_cases": [
+        "Data structuring",
+        "Report generation",
+        "Content formatting",
+        "API responses"
+      ],
+      "examples": [
+        {
+          "scenario": "JSON generation",
+          "prompt": "Generate a JSON object that includes:\n- User profile information\n- Contact details\n- Preferences\nUse camelCase for keys.",
+          "explanation": "Ensures consistent and properly formatted output"
+        }
+      ]
+    },
+    {
+      "name": "Context-Enhanced",
+      "description": "Provide rich context for more accurate responses",
+      "template": "Given the context: {background_info}\n\nTask: {specific_request}\n\nConstraints: {limitations}",
+      "use_cases": [
+        "Content generation",
+        "Analysis tasks",
+        "Recommendations",
+        "Decision support"
+      ],
+      "examples": [
+        {
+          "scenario": "Market analysis",
+          "prompt": "Given the context: Recent tech industry layoffs and economic indicators\n\nTask: Analyze potential impacts on startup funding\n\nConstraints: Focus on AI/ML startups in North America",
+          "explanation": "Provides necessary background for informed analysis"
+        }
+      ]
+    },
+    {
+      "name": "Iterative Refinement",
+      "description": "Progressive refinement of outputs through multiple steps",
+      "template": "Step 1: {initial_task}\nStep 2: Refine based on {criteria}\nStep 3: Optimize for {goal}",
+      "use_cases": [
+        "Content optimization",
+        "Code improvement",
+        "Design iteration",
+        "Quality enhancement"
+      ],
+      "examples": [
+        {
+          "scenario": "Content writing",
+          "prompt": "Step 1: Write a basic blog post about AI\nStep 2: Refine for technical accuracy\nStep 3: Optimize for SEO",
+          "explanation": "Allows progressive improvement of the output"
+        }
+      ]
+    }
+  ],
+  "best_practices": [
+    {
+      "category": "Clarity",
+      "tips": [
+        "Be specific about requirements",
+        "Use clear, unambiguous language",
+        "Break complex requests into steps",
+        "Provide examples when possible"
+      ]
+    },
+    {
+      "category": "Context",
+      "tips": [
+        "Include relevant background information",
+        "Specify target audience",
+        "Define scope and limitations",
+        "Mention important constraints"
+      ]
+    },
+    {
+      "category": "Format",
+      "tips": [
+        "Specify desired output format",
+        "Use structured templates",
+        "Include formatting examples",
+        "Define success criteria"
+      ]
+    }
+  ],
+  "anti_patterns": [
+    {
+      "pattern": "Vague Requests",
+      "example": "Make it better",
+      "improvement": "Improve the text by enhancing clarity, reducing redundancy, and ensuring consistent tone"
+    },
+    {
+      "pattern": "Overloaded Prompts",
+      "example": "Analyze, summarize, and provide recommendations all at once",
+      "improvement": "Break down into separate, focused requests"
+    },
+    {
+      "pattern": "Missing Context",
+      "example": "What do you think about this?",
+      "improvement": "What do you think about this approach to microservice architecture, considering scalability and maintenance?"
+    }
+  ]
+} 

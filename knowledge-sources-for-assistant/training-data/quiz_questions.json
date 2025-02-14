@@ -1,0 +1,150 @@
+{
+  "quiz_sections": [
+    {
+      "section": "Fundamentals",
+      "questions": [
+        {
+          "id": "Q1",
+          "type": "multiple_choice",
+          "question": "Which of the following is a key characteristic of a well-crafted prompt?",
+          "options": [
+            "Being as vague as possible",
+            "Using technical jargon exclusively",
+            "Providing clear, specific instructions",
+            "Keeping it as short as possible"
+          ],
+          "correct_answer": 2,
+          "explanation": "Well-crafted prompts should provide clear, specific instructions to get the desired output. Vagueness leads to inconsistent results."
+        },
+        {
+          "id": "Q2",
+          "type": "true_false",
+          "question": "Context is unnecessary when writing prompts as long as the instruction is clear.",
+          "correct_answer": false,
+          "explanation": "Context is crucial for getting accurate and relevant responses. It helps the AI understand the background, constraints, and specific requirements of the task."
+        }
+      ]
+    },
+    {
+      "section": "Prompt Patterns",
+      "questions": [
+        {
+          "id": "Q3",
+          "type": "multiple_choice",
+          "question": "What is the primary purpose of chain-of-thought prompting?",
+          "options": [
+            "To make prompts longer",
+            "To guide the AI through logical steps",
+            "To confuse the AI",
+            "To save tokens"
+          ],
+          "correct_answer": 1,
+          "explanation": "Chain-of-thought prompting helps break down complex tasks into logical steps, improving accuracy and reasoning."
+        },
+        {
+          "id": "Q4",
+          "type": "matching",
+          "question": "Match the prompt pattern with its primary use case:",
+          "pairs": [
+            {
+              "prompt": "Role-based prompting",
+              "use_case": "Getting expertise-specific responses"
+            },
+            {
+              "prompt": "Format-driven prompting",
+              "use_case": "Ensuring consistent output structure"
+            },
+            {
+              "prompt": "Context-enhanced prompting",
+              "use_case": "Providing background information"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "section": "Best Practices",
+      "questions": [
+        {
+          "id": "Q5",
+          "type": "open_ended",
+          "question": "Improve this prompt: 'Write about AI'",
+          "example_answer": "Write a 1000-word article about the practical applications of artificial intelligence in healthcare, focusing on recent developments in 2024. Include specific examples, case studies, and potential future impacts. Structure the article with clear headings and conclude with recommendations for healthcare providers.",
+          "scoring_criteria": [
+            "Specificity of topic",
+            "Clear structure",
+            "Quantifiable elements",
+            "Context inclusion"
+          ]
+        },
+        {
+          "id": "Q6",
+          "type": "multiple_choice",
+          "question": "Which approach is best for complex analytical tasks?",
+          "options": [
+            "Single, long prompt",
+            "Breaking down into multiple steps",
+            "Using technical jargon",
+            "Minimizing context"
+          ],
+          "correct_answer": 1,
+          "explanation": "Breaking complex tasks into multiple steps helps maintain clarity and ensures each part is handled correctly."
+        }
+      ]
+    },
+    {
+      "section": "Advanced Techniques",
+      "questions": [
+        {
+          "id": "Q7",
+          "type": "scenario",
+          "scenario": "You need to generate a comprehensive market analysis report using AI.",
+          "question": "Which prompting technique would be most effective?",
+          "options": [
+            {
+              "technique": "Single prompt approach",
+              "description": "One long prompt with all requirements"
+            },
+            {
+              "technique": "Iterative approach",
+              "description": "Multiple prompts building on previous outputs"
+            },
+            {
+              "technique": "Template-based",
+              "description": "Using a fixed template for all analyses"
+            }
+          ],
+          "correct_answer": 1,
+          "explanation": "An iterative approach allows for progressive refinement and handles complexity better than a single long prompt."
+        },
+        {
+          "id": "Q8",
+          "type": "code_analysis",
+          "question": "Review this prompt generation code and identify potential improvements:",
+          "code": "function generatePrompt(topic) {\n  return `Write about ${topic}`;\n}",
+          "example_improvement": "function generatePrompt(topic, wordCount, audience, format) {\n  return `Write a ${wordCount}-word article about ${topic}.\nTarget audience: ${audience}\nFormat: ${format}\nInclude specific examples and citations.`;\n}",
+          "scoring_criteria": [
+            "Parameter flexibility",
+            "Output structure",
+            "Context inclusion",
+            "Specificity"
+          ]
+        }
+      ]
+    }
+  ],
+  "scoring": {
+    "multiple_choice": 5,
+    "true_false": 3,
+    "matching": 5,
+    "open_ended": 10,
+    "scenario": 8,
+    "code_analysis": 10
+  },
+  "passing_score": 70,
+  "feedback_templates": {
+    "excellent": "Outstanding understanding of prompt engineering concepts!",
+    "good": "Good grasp of the basics with room for improvement in advanced concepts.",
+    "needs_improvement": "Review the fundamentals and practice more with real-world examples."
+  }
+} 

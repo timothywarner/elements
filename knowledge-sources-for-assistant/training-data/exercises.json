@@ -1,0 +1,138 @@
+{
+  "exercises": [
+    {
+      "category": "Prompt Improvement",
+      "difficulty": "beginner",
+      "exercises": [
+        {
+          "id": "PI001",
+          "title": "Improve Vague Prompts",
+          "description": "Transform these vague prompts into specific, actionable requests",
+          "examples": [
+            {
+              "original": "Write about technology",
+              "improved": "Write a 1000-word article about the impact of artificial intelligence on healthcare in 2024, focusing on practical applications, challenges, and future prospects. Include specific examples and case studies.",
+              "explanation": "The improved version specifies length, topic focus, timeframe, and required elements"
+            },
+            {
+              "original": "Help with data analysis",
+              "improved": "Analyze the provided customer satisfaction survey data to:\n1. Identify top 3 complaints\n2. Calculate NPS score trends\n3. Recommend specific improvements\nPresent findings in a structured report with visualizations.",
+              "explanation": "The improved version specifies analysis goals, output format, and deliverables"
+            }
+          ],
+          "practice_items": [
+            "Make this website better",
+            "Fix the code",
+            "Analyze sales data",
+            "Write a story"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Format Specification",
+      "difficulty": "intermediate",
+      "exercises": [
+        {
+          "id": "FS001",
+          "title": "Define Output Formats",
+          "description": "Practice specifying exact output formats for different scenarios",
+          "examples": [
+            {
+              "scenario": "Data Analysis Report",
+              "prompt": "Generate a quarterly sales analysis report with the following sections:\n1. Executive Summary (100 words)\n2. Key Metrics Table\n3. Trend Analysis (with graphs)\n4. Recommendations (bullet points)\n\nUse markdown formatting and include sample data visualizations.",
+              "explanation": "Specifies sections, length constraints, and formatting requirements"
+            }
+          ],
+          "practice_items": [
+            "Create a product comparison",
+            "Generate a weekly report",
+            "Summarize research findings",
+            "Design a dashboard layout"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Context Enhancement",
+      "difficulty": "advanced",
+      "exercises": [
+        {
+          "id": "CE001",
+          "title": "Add Contextual Information",
+          "description": "Practice adding relevant context to improve prompt effectiveness",
+          "examples": [
+            {
+              "scenario": "Technical Documentation",
+              "original": "Explain how to use the API",
+              "improved": "Create a developer guide for the payment processing API with these details:\n\nContext:\n- RESTful API using OAuth 2.0\n- Targeting experienced JavaScript developers\n- Must comply with PCI-DSS requirements\n\nInclude:\n1. Authentication setup\n2. Basic transaction flow\n3. Error handling\n4. Security best practices\n\nUse code examples in Node.js.",
+              "explanation": "Adds technical context, target audience, compliance requirements, and specific needs"
+            }
+          ],
+          "practice_items": [
+            "Write marketing copy",
+            "Create user documentation",
+            "Design system architecture",
+            "Develop training material"
+          ]
+        }
+      ]
+    },
+    {
+      "category": "Role-Based Prompting",
+      "difficulty": "intermediate",
+      "exercises": [
+        {
+          "id": "RB001",
+          "title": "Assign Appropriate Roles",
+          "description": "Practice using role-based prompts for different scenarios",
+          "examples": [
+            {
+              "scenario": "Technical Explanation",
+              "prompt": "As a senior software architect with expertise in distributed systems, explain the benefits and challenges of implementing a microservices architecture to a team of junior developers who have only worked with monolithic applications. Include:\n1. Key advantages\n2. Common pitfalls\n3. Best practices\n4. Migration strategies",
+              "explanation": "Specifies both the expert role and target audience for appropriate context and depth"
+            }
+          ],
+          "practice_items": [
+            "Explain investment concepts",
+            "Describe medical procedures",
+            "Present legal analysis",
+            "Teach programming concepts"
+          ]
+        }
+      ]
+    }
+  ],
+  "assessment_criteria": {
+    "clarity": {
+      "description": "How clear and unambiguous is the prompt?",
+      "scoring": [
+        {"score": 1, "description": "Vague and unclear"},
+        {"score": 2, "description": "Somewhat clear but with ambiguities"},
+        {"score": 3, "description": "Mostly clear with minor issues"},
+        {"score": 4, "description": "Very clear and well-defined"},
+        {"score": 5, "description": "Exceptionally clear and precise"}
+      ]
+    },
+    "specificity": {
+      "description": "How specific and detailed is the prompt?",
+      "scoring": [
+        {"score": 1, "description": "Too general"},
+        {"score": 2, "description": "Some specific elements"},
+        {"score": 3, "description": "Good level of detail"},
+        {"score": 4, "description": "Very detailed and specific"},
+        {"score": 5, "description": "Optimally detailed and precise"}
+      ]
+    },
+    "context": {
+      "description": "How well does the prompt provide necessary context?",
+      "scoring": [
+        {"score": 1, "description": "No context provided"},
+        {"score": 2, "description": "Minimal context"},
+        {"score": 3, "description": "Adequate context"},
+        {"score": 4, "description": "Good context with background"},
+        {"score": 5, "description": "Comprehensive context"}
+      ]
+    }
+  }
+} 
