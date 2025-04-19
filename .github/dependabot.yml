@@ -1,0 +1,110 @@
+# Dependabot configuration file
+# See: https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file
+
+version: 2
+updates:
+  # Enable npm package updates
+  - package-ecosystem: "npm"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "monday"
+      time: "09:00"
+      timezone: "America/New_York"
+    open-pull-requests-limit: 10
+    labels:
+      - "npm"
+      - "dependencies"
+      - "security"
+    commit-message:
+      prefix: "📦 npm"
+      include: "scope"
+    assignees:
+      - "timothywarner"
+    reviewers:
+      - "timothywarner"
+    groups:
+      dev-dependencies:
+        patterns:
+          - "@types/*"
+          - "eslint*"
+          - "*-loader"
+        update-types:
+          - "minor"
+          - "patch"
+
+  # Enable pip package updates
+  - package-ecosystem: "pip"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "wednesday"
+      time: "09:00"
+      timezone: "America/New_York"
+    open-pull-requests-limit: 10
+    labels:
+      - "python"
+      - "dependencies"
+      - "security"
+    commit-message:
+      prefix: "📦 pip"
+      include: "scope"
+    assignees:
+      - "timothywarner"
+    reviewers:
+      - "timothywarner"
+
+  # Enable GitHub Actions updates
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "friday"
+      time: "09:00"
+      timezone: "America/New_York"
+    open-pull-requests-limit: 5
+    labels:
+      - "github-actions"
+      - "ci-cd"
+      - "automation"
+    commit-message:
+      prefix: "🔄 actions"
+      include: "scope"
+    assignees:
+      - "timothywarner"
+    reviewers:
+      - "timothywarner"
+
+  # Enable Docker image updates
+  - package-ecosystem: "docker"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+      day: "thursday"
+      time: "09:00"
+      timezone: "America/New_York"
+    open-pull-requests-limit: 5
+    labels:
+      - "docker"
+      - "containers"
+      - "infrastructure"
+    commit-message:
+      prefix: "🐳 docker"
+      include: "scope"
+    assignees:
+      - "timothywarner"
+    reviewers:
+      - "timothywarner"
+
+  # Additional configuration for subdirectories if needed
+  # For example, if you have Python requirements in multiple locations
+  - package-ecosystem: "pip"
+    directory: "/scripts"
+    schedule:
+      interval: "monthly"
+    open-pull-requests-limit: 5
+    labels:
+      - "python"
+      - "dependencies"
+    commit-message:
+      prefix: "📦 scripts" 

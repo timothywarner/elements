@@ -1,2 +1,27 @@
-# Default owner for everything in the repo
+# CODEOWNERS file defines who is responsible for code in the repository
+# https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+# Default owners for everything
 * @timothywarner
+
+# Documentation ownership
+/docs/ @timothywarner
+*.md @timothywarner
+
+# JavaScript/Node.js code ownership
+/src/*.js @timothywarner
+/scripts/*.js @timothywarner
+package.json @timothywarner
+
+# Python code ownership
+/src/*.py @timothywarner
+/scripts/*.py @timothywarner
+requirements.txt @timothywarner
+
+# GitHub Actions & CI/CD workflows ownership
+/.github/workflows/ @timothywarner
+
+# Security configuration ownership
+/.github/dependabot.yml @timothywarner
+/.github/security.yml @timothywarner
+/.github/gitleaks.toml @timothywarner

@@ -1,0 +1,55 @@
+# Gitleaks configuration file
+title = "Gitleaks Config"
+
+# Define additional rules
+[[rules]]
+id = "generic-api-key"
+description = "Generic API Key"
+regex = '''(?i)(['"])?(api[_-]?key|x[_-]?api[_-]?key)(['"])?[\\s]*?[:=][\\s]*?['"]([\\w]{32,})['"]'''
+secretGroup = 4
+
+[[rules]]
+id = "generic-secret"
+description = "Generic Secret"
+regex = '''(?i)(['"])?(secret|app[_-]?secret|application[_-]?secret)(['"])?[\\s]*?[:=][\\s]*?['"]([\\w]{32,})['"]'''
+secretGroup = 4
+
+# You can add specific rules for Azure, AWS, GCP, etc.
+[[rules]]
+id = "azure-storage-account-key"
+description = "Azure Storage Account Key"
+regex = '''(?i)(['"])?(storage[_-]?account[_-]?key)(['"])?[\\s]*?[:=][\\s]*?['"]([\\w+/=]{88})['"]'''
+secretGroup = 4
+
+[[rules]]
+id = "azure-connection-string"
+description = "Azure Connection String"
+regex = '''(?i)(['"])?(connection[_-]?string)(['"])?[\\s]*?[:=][\\s]*?['"]([\\w+;@=:/]{20,})['"]'''
+secretGroup = 4
+
+# Allow specific files (often test fixtures, examples, etc.)
+[[allowlist]]
+description = "Allowlisted files"
+paths = [
+    '''.github/workflows/''',
+    '''package-lock.json''',
+    '''yarn.lock''',
+]
+
+# Allow specific regexes in specific files
+[[allowlist]]
+description = "Allowlisted regex patterns in specific files"
+regexes = [
+    '''example''',
+    '''sample''', 
+    '''placeholder''',
+    '''template''',
+]
+
+# Allow specific commit ranges for historical commits you can't fix
+# [[allowlist]]
+# description = "Allowlisted commits"
+# commits = [
+#   "aaaaaaa",
+#   "bbbbbbb",
+# ] 

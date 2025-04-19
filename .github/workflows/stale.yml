@@ -1,0 +1,37 @@
+name: "🧹 Manage Stale Issues & PRs"
+
+on:
+  schedule:
+    - cron: '0 0 * * *'  # Run daily at midnight
+
+jobs:
+  stale:
+    runs-on: ubuntu-latest
+    permissions:
+      issues: write
+      pull-requests: write
+
+    steps:
+      - name: 🔍 Find & Mark Stale Issues and PRs
+        uses: actions/stale@v8
+        with:
+          # Issue settings
+          stale-issue-message: 'This issue has been automatically marked as stale because it has not had recent activity. It will be closed in 14 days if no further activity occurs.'
+          close-issue-message: 'This issue was closed because it has been stale for 14 days with no activity.'
+          days-before-issue-stale: 60
+          days-before-issue-close: 14
+          exempt-issue-labels: 'pinned,security,help-wanted,good-first-issue,bug'
+
+          # PR settings
+          stale-pr-message: 'This pull request has been automatically marked as stale because it has not had recent activity. It will be closed in 14 days if no further activity occurs.'
+          close-pr-message: 'This pull request was closed because it has been stale for 14 days with no activity.'
+          days-before-pr-stale: 30
+          days-before-pr-close: 14
+          exempt-pr-labels: 'dependencies,security'
+
+          # General settings
+          stale-issue-label: 'stale'
+          stale-pr-label: 'stale'
+          exempt-all-milestones: true
+          operations-per-run: 100
+          remove-stale-when-updated: true

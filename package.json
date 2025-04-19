@@ -1,12 +1,14 @@
 {
-    "name": "hello-world",
-    "displayName": "Hello World",
-    "description": "A simple Hello World extension",
-    "version": "0.0.1",
+    "name": "elements-of-prompt-engineering",
+    "displayName": "Elements of Prompt Engineering",
+    "description": "Course materials and utilities for The Elements of Prompt Engineering",
+    "version": "1.0.0",
     "engines": {
-        "vscode": "^1.74.0"
+        "vscode": "^1.74.0",
+        "node": ">=14.0.0"
     },
     "categories": [
+        "Education",
         "Other"
     ],
     "activationEvents": [],
@@ -25,7 +27,13 @@
         "watch": "tsc -watch -p ./",
         "pretest": "npm run compile && npm run lint",
         "lint": "eslint src --ext ts",
-        "test": "node ./out/test/runTest.js"
+        "test": "node ./out/test/runTest.js",
+        "demo:js": "node src/demo.js",
+        "demo:py": "python src/demo.py",
+        "start": "npm run demo:js"
+    },
+    "dependencies": {
+        "chalk": "^4.1.2"
     },
     "devDependencies": {
         "@types/vscode": "^1.74.0",
@@ -38,6 +46,7 @@
         "glob": "^8.0.3",
         "mocha": "^10.1.0",
         "typescript": "^4.9.3",
-        "@vscode/test-electron": "^2.2.0"
+        "@vscode/test-electron": "^2.2.0",
+        "nodemon": "^3.0.1"
     }
 } 

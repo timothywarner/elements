@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: 📚 Documentation
+    url: https://github.com/timothywarner/elements/blob/main/README.md
+    about: Check our documentation before creating an issue
+  - name: 🤔 Ask a Question
+    url: https://github.com/timothywarner/elements/discussions/new?category=q-a
+    about: Ask questions and discuss with other community members
+  - name: 💬 General Discussion
+    url: https://github.com/timothywarner/elements/discussions/new?category=general
+    about: Start a general discussion about the project

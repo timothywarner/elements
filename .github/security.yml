@@ -1,0 +1,33 @@
+# GitHub Advanced Security configuration file
+
+# Enable GitHub Advanced Security features
+enable_advanced_security: true
+
+# Security settings
+security:
+  # Code scanning settings
+  code_scanning:
+    enabled: true
+    schedule: weekly
+    alert_threshold: error
+
+  # Secret scanning settings
+  secret_scanning:
+    enabled: true
+    notify_admins: true
+    push_protection: true
+
+  # Dependabot settings
+  dependabot:
+    alerts:
+      enabled: true
+    security_updates:
+      enabled: true
+    version_updates:
+      enabled: true
+      schedule: weekly
+
+  # SBOM settings
+  sbom:
+    enabled: true
+    format: cyclonedx 
