@@ -33,7 +33,7 @@
         "start": "npm run demo:js"
     },
     "dependencies": {
-        "chalk": "^4.1.2"
+        "chalk": "^5.4.1"
     },
     "devDependencies": {
         "@types/vscode": "^1.74.0",
