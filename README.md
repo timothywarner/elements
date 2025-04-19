@@ -1,3 +1,26 @@
+# 🧠 The Elements of Prompt Engineering
+
+Welcome to "The Elements of Prompt Engineering" - a comprehensive course on prompt engineering techniques and best practices.
+
+## 📁 Repository Structure
+
+This repository is organized as follows:
+
+- `/docs` - Learning resources, documentation, and course materials
+  - `/segment-01` - Fundamentals of Prompt Engineering
+  - `/segment-02` - Data Analysis Techniques
+  - `/segment-03` - AI Assistants
+  - `/segment-04` - Development and Integration
+
+- `/tim` - Course planning and instructional design documents
+  - `/course-planning` - Course plans, outlines, and presentations
+
+- `/src` - Sample applications and code examples
+
+- `/scripts` - Utility scripts and templates
+
+---
+
 # The Elements of Prompt Engineering Live Online Training Course
 
 <p align="center">
