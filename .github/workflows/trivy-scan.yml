@@ -18,7 +18,7 @@ jobs:
 
     steps:
       - name: ⬇️ Checkout code
-        uses: actions/checkout@v3
+        uses: actions/checkout@v5
 
       - name: 🔄 Run Trivy vulnerability scanner in repo mode
         uses: aquasecurity/trivy-action@master
