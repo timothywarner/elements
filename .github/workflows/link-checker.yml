@@ -32,7 +32,7 @@ jobs:
 
       - name: Create Issue if Broken Links Found
         if: failure()
-        uses: peter-evans/create-issue-from-file@v4
+        uses: peter-evans/create-issue-from-file@v6
         with:
           title: 'Broken Links Detected'
           content-filepath: './broken-links.txt'
