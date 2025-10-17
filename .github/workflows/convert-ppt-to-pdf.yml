@@ -23,7 +23,7 @@ jobs:
       run: unoconv -f pdf course-plan/warner-elements.pptx
 
     - name: Commit and push changes
-      uses: stefanzweifel/git-auto-commit-action@v4
+      uses: stefanzweifel/git-auto-commit-action@v7
       with:
         commit_message: Convert PPTX to PDF
         file_pattern: course-plan/warner-elements.pdf
